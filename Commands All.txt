@@ -1,6 +1,26 @@
-CONTENTS:
+#################################
+sonar@sonar:~$ docker --help
+#################################
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+---------------------------------------------------------------------------------------
+Options:
+      --config string      Location of client config files (default "/home/sonar/.docker")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/sonar/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/sonar/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/sonar/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+-------------------------------------------------------------------------------------
 
 path : $ sudo cd /var/lib/docker/
+
 Management Commands:
   1. builder     Manage builds
   2. config      Manage Docker configs
