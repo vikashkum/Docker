@@ -20,6 +20,7 @@ Options:
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
 
+path : $ sudo cd /var/lib/docker/
 Management Commands:
   builder     Manage builds
   config      Manage Docker configs
@@ -111,7 +112,7 @@ Run 'docker service COMMAND --help' for more information on a command.
 
 
 ###########################
-1. Docker Basic Commands :
+1. DOCKER VOLUME COMMANDS :
 ###########################
 
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
@@ -135,7 +136,7 @@ Run 'docker volume COMMAND --help' for more information on a command.
 
 
 ####################################
-2. COMMANDS FOR DOCKER CONTAINERS:
+2. DOCKER CONTAINERS COMMANDS:
 ####################################
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 $ docker container --help
@@ -178,7 +179,7 @@ Run 'docker container COMMAND --help' for more information on a command.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ********************************************************************************************************
 #####################################
-3. COMMAND FOR DOCKER IMAGES :
+3. DOCKER IMAGES COMMAND:
 #####################################
 
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
